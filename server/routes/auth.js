@@ -13,6 +13,6 @@ import * as auth from "../controllers/auth.js";
 //create router & see how we can send response
 // router.get('/', welcome );    //1st arg of get is url- listen to API, 2nd arg is callbk fn(have access to request & res obj) so express can be called as req & res handler
 router.get("/", auth.welcome );
-router.post("/pre-register", auth.preRegister)      //create route for user reg(pre-reg coz don't immediately save user into DB, 1st send cnf email then, else anyone can use garbage email)
+router.post("/pre-register", auth.preRegister);      //create route for user reg(pre-reg coz don't immediately save user into DB, 1st send cnf email then, else anyone can use garbage email)
 
 export default router;        //to import in our server
