@@ -23,6 +23,6 @@ app.use(cors());
 app.use("/api", authRoutes);   //give path as we are building API so every route will be prefixed with /api so wi8 here instead of using in every route
 
 //for this app to run we hv to listen port
-app.listen(8000, () => console.log("server_runnimg_on_port_8000"));     //In callbk fn if don't want to ret then remove {}
+app.listen(8000, () => console.log("server_running_on_port_8000"));     //In callbk fn if don't want to ret then remove {}
 
 //try making req using above api
