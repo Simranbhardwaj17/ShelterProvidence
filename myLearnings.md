@@ -28,8 +28,14 @@ here we use use mongoose to create a model
 to create model we need to create a schema
 
 
+cd server
+
+ node server.js to run server
 
 
+working of cors,... in server file that are injected
 
 
+Signup to AWS using SES(for emails) & S3(for storage)
 
+This project is at hold because of AWS signup
